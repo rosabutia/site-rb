@@ -53,9 +53,10 @@ p {
   line-height: 1.2;
 }
 .alert {
-  background: red;
+  background: orange;
   font-size: 1.2vw;
   color: white;
+  padding: 0.2em 0.4em;
 }
 .spacer {
   height: 2vh;

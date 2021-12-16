@@ -65,7 +65,7 @@ const Home = () => {
 
       <hr className="spacer" />
 
-      <h3 className="alert">ATENÇÃO, nossa rede elétrica de de 220V! Caso você precise de um conversor para 110V, nos avise para que possamos lhe atender.</h3>
+      <h3 className="alert">ATENÇÃO, nossa rede elétrica é de 220V! Caso você precise de um conversor para 110V, nos avise para que possamos lhe atender.</h3>
     </content>
   );
 };
