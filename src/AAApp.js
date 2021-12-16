@@ -1,7 +1,7 @@
 import logo from './logo-rb.svg';
 import './App.css';
 
-function App() {
+function AAApp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default AAApp;
