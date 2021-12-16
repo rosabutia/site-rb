@@ -268,11 +268,11 @@ dl.des-chales {
 }
 dl.des-chales dt {
   flex: 0 0 18%;
-  margin: 0.5vw 1% 1vw;
+  margin: 0.5vw 0 1vw;
 }
 dl.des-chales dd {
   flex: 0 0 80%;
-  margin: 0.5vw 0 1vw;
+  margin: 0.5vw 0 1vw 2%;
 }
 dl.des-chales dt h4 {
   margin: 0 0 0.5em;
@@ -305,6 +305,9 @@ dl.des-chales dd p {
     text-align: left;
     font-size: 1.4em;
     margin: 0.5em 0 0.2em 0;
+  }
+  dl.des-chales dd {
+    margin: 0.5vw 0 1vw 0;
   }
   dl.des-chales dd p {
     font-size: 1.2em;
