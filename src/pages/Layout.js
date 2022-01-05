@@ -42,20 +42,29 @@ const Layout = () => {
         </Typist>
         </h1>
         <h2 className="subheadline">pode chamar como quiser, o lugar você já encontrou.</h2>
-        <a href="#" className="main-cta">Entrar em contato</a>
+        <Link className="main-cta" to="/contact">Entrar em contato</Link>
       </cover>
 
       <nav className="navegation">
         <ul>
-          <li><Link to="/">Os chalés</Link></li>
-          <li><Link to="/local">A localização</Link></li>
-          <li><Link to="/contact">Entrar em contato</Link></li>
+          <li><Link to="/">Fotos</Link></li>
+          <li><Link to="/photoschale1">Chalé 1</Link></li>
+          <li><Link to="/photoschale2">Chalé 2</Link></li>
+          <li><Link to="/photoschale3">Chalé 3</Link></li>
+          <li><Link to="/infra">Infraestrutura</Link></li>
+          <li><Link to="/local">Localização</Link></li>
+          <li><Link to="/contact">Contato</Link></li>
         </ul>
       </nav>
 
       <section className="content">
         <Outlet />
       </section>
+
+      <footer>
+        <hr />
+        <small>© 2021 Villa Rosa Butiá. Endereço: R. Quarenta e Um Mil e Trezentos e Trinta e Dois - Praia do Rosa - Ibiraquera, Imbituba - SC, 88780-000 - Brasil</small>
+      </footer>
 
     </div>
   )

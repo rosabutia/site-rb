@@ -1,4 +1,3 @@
-import logo from '../logo-rb.svg';
 
 const Home = () => {
   return (

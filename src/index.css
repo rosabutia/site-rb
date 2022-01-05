@@ -67,7 +67,7 @@ p {
 
 /* header */
 header {
-	padding: 4vh 10vw;
+	padding: 4vh 5vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -135,13 +135,13 @@ cover {
 	position: relative;
   display: block;
   padding: 5vw;
-  margin: 0 10vw 3vw;
+  margin: 0 0 3vw;
 	background-image: url(./images/cover-pool.jpeg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 1;
-	border-radius: 2vw;
+	/* border-radius: 2vw; */
 }
 cover > .cover-background {
 	z-index: 2;
@@ -202,8 +202,8 @@ h2.subheadline {
 @media only screen and (max-width: 600px) {
   cover {
     padding: 5vw;
-    margin: 0 5vw 5vw;
-  	border-radius: 4vw;
+    margin: 0 0 5vw;
+  	/* border-radius: 4vw; */
   }
   h1.headline {
     margin: 0;
@@ -228,44 +228,59 @@ h2.subheadline {
 
 /* navegação */
 .navegation {
-	margin: 0 10vw;
+	margin: 0 5vw;
 }
 .navegation ul {
   display: flex;
   justify-content:center;
+	flex-wrap: wrap;
+	align-content: stretch;
 }
 .navegation ul li {
-  margin: 0 1vw;
+  margin: 0;
 }
 .navegation ul li a {
   display: block;
   padding: 2vh 1.5vw;
-  margin: 1px;
-	font-size: 1.2vw;
+	font-size: 1.5vw;
 	font-weight: 600;
 	text-decoration: none;
-	color: #fff;
-  border-radius: 2vh;
-  background: #BF409F;
+
+	color: #555;
+  background: #fff;
+	border-bottom: 3px solid #ddd;
 }
+.navegation ul li a:focus,
 .navegation ul li a:hover {
-	background: #BFAA40;
+	color: #BF409F;
+	border-bottom-color: #BF409F;
 }
+
+
 @media only screen and (max-width: 600px) {
-  .navegation {
-  	margin: 0 5vw;
-  }
-  .navegation ul li a {
-    padding: 2vh 2.4vh;
-  	font-size: 2.4vw;
-    border-radius: 4vw;
-  }
+	.navegation ul li {
+	  margin: 1vw;
+	}
+	.navegation ul li a {
+	  padding: 2vh 2.4vh;
+		font-size: 2.4vw;
+
+		color: #fff;
+	  border-radius: 1vw;
+	  background: #BF409F;
+		border-bottom: 0px;
+	}
+	.navegation ul li a:focus,
+	.navegation ul li a:hover {
+		color: #fff;
+		border-bottom-color: #BF409F;
+	}
 }
 
 
 /* content */
 section.content {
-  margin: 4vw 10vw;
+  margin: 5vw 5vw 10vw;
 }
 
 /* description */
@@ -380,4 +395,27 @@ dl.des-chales dd p {
     margin: 5vw 0 15vw;
     display: none;
   }
+}
+
+/* galeria de fotos */
+.react-photo-gallery--gallery img {
+	border-radius: 0.5vw;
+}
+
+
+/* footer */
+footer {
+	padding: 1vw;
+
+}
+footer hr {
+	border-width: 0;
+	border-bottom: 1px solid #ddd;
+
+}
+footer small {
+	display: block;
+	text-align: center;
+	color: #777;
+	font-size: 0.8em;
 }

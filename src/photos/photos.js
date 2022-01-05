@@ -1,0 +1,50 @@
+export const photos = [
+  {
+    src: "/images/cover.jpg",
+    width: 4,
+    height: 3,
+    gallery: "extern",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  },
+  {
+    src: "/images/cover.jpg",
+    width: 4,
+    height: 3,
+    gallery: "extern",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  },
+  {
+    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+    width: 4,
+    height: 3,
+    gallery: "extern",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  },
+  {
+    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    width: 4,
+    height: 3,
+    gallery: "chale1",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  },
+  {
+    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    width: 1,
+    height: 1,
+    gallery: "chale1",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  },
+  {
+    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    width: 3,
+    height: 4,
+    gallery: "chale1",
+    caption: "An image caption as a string, React Node, or a rendered HTML string",
+    alt: "A plain string to serve as the image's alt tag",
+  }
+];
