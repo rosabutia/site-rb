@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from '../logo-rb.svg';
+import Footer from '../components/Footer.js';
 import '../App.css';
 import Typist from 'react-typist';
 
@@ -8,7 +9,7 @@ const Layout = () => {
   return (
     <div className="general-container">
       <header>
-        <img src={logo} className="logo-rb" alt="logo villa rosa butiá" />
+        <Link to="/"><img src={logo} className="logo-rb" alt="logo villa rosa butiá" /></Link>
         <p className="subheadline">
           <span>Villa Rosa Butiá</span><span className="spacer"> • </span><span>Praia do Rosa</span><span className="spacer"> • </span><span>Santa Catarina</span><span className="spacer"> • </span><span>Brasil</span>
         </p>
@@ -61,10 +62,7 @@ const Layout = () => {
         <Outlet />
       </section>
 
-      <footer>
-        <hr />
-        <small>© 2021 Villa Rosa Butiá. Endereço: R. Quarenta e Um Mil e Trezentos e Trinta e Dois - Praia do Rosa - Ibiraquera, Imbituba - SC, 88780-000 - Brasil</small>
-      </footer>
+      <Footer />
 
     </div>
   )
