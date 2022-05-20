@@ -1,11 +1,11 @@
 export const photos = [
   {
-    src: "/images/cover.jpg",
+    src: "/images/cover1.jpg",
     width: 4,
     height: 3,
     gallery: "extern",
     caption: "An image caption as a string, React Node, or a rendered HTML string",
-    alt: "A plain string to serve as the image's alt tag",
+    alt: "1A plain string to serve as the image's alt tag",
   },
   {
     src: "/images/cover.jpg",
@@ -13,7 +13,7 @@ export const photos = [
     height: 3,
     gallery: "extern",
     caption: "An image caption as a string, React Node, or a rendered HTML string",
-    alt: "A plain string to serve as the image's alt tag",
+    alt: "2A plain string to serve as the image's alt tag",
   },
   {
     src: "https://source.unsplash.com/5P91SF0zNsI/740x494",

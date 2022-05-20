@@ -134,13 +134,14 @@ header p.subheadline span:nth-child(7) {
 cover {
 	position: relative;
   display: block;
-  padding: 5vw;
-  margin: 0 0 3vw;
 	background-image: url(./images/cover-pool.jpeg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 1;
+	padding: 4vw;
+	margin: 0 4vw 2vw;
+	border-radius: 2vw;
 }
 cover > .cover-background {
 	z-index: 2;
@@ -189,7 +190,7 @@ h2.subheadline {
 	margin: 2vh 0;
 	position: relative;
 	padding: 2vh 3vh;
-	font-size: 1.2vw;
+	font-size: 1.4em;
 	font-weight:600;
   letter-spacing: 0em;
   line-height: 1.2;
@@ -200,9 +201,9 @@ h2.subheadline {
 }
 @media only screen and (max-width: 600px) {
   cover {
-    padding: 5vw;
-    margin: 0 0 5vw;
-  	/* border-radius: 4vw; */
+    padding: 4vw;
+    /* margin: 0 0 3vw; */
+  	/* border-radius: 0; */
   }
   h1.headline {
     margin: 0;
@@ -227,7 +228,9 @@ h2.subheadline {
 
 /* navegação */
 .navegation {
-	margin: 0 5vw;
+	margin: 4vw;
+	/* border-radius: 2vw; */
+	/* border: 1px solid #ddd; */
 }
 .navegation ul {
   display: flex;
@@ -240,14 +243,14 @@ h2.subheadline {
 }
 .navegation ul li a {
   display: block;
-  padding: 2vh 1.5vw;
-	font-size: 1.5vw;
+  padding: 2vw;
+	font-size: 1.2em;
 	font-weight: 600;
 	text-decoration: none;
 
-	color: #555;
-  background: #fff;
-	border-bottom: 3px solid #ddd;
+	color: #777;
+  /* background: #fff; */
+	/* border-bottom: 3px solid #ddd; */
 }
 .navegation ul li a:focus,
 .navegation ul li a:hover {
@@ -257,6 +260,9 @@ h2.subheadline {
 
 
 @media only screen and (max-width: 600px) {
+	.navegation {
+		/* border: 0; */
+	}
 	.navegation ul li {
 	  margin: 1vw;
 	}
@@ -279,7 +285,7 @@ h2.subheadline {
 
 /* content */
 section.content {
-  margin: 5vw 5vw 10vw;
+  margin: 4vw;
 }
 
 /* description */
@@ -407,7 +413,7 @@ section.footer {
 	display: flex;
 	align-items: baseline;
 	gap: 2vw;
-	padding: 2vw;
+	padding: 4vw;
 	justify-content: flex-start;
 }
 section.footer article,
