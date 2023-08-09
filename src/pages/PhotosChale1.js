@@ -20,14 +20,14 @@ function FunctionPhotosChale1() {
   };
 
   const photoschale1 = photos.filter(function(elt, index) {
-    var upperThreshold = 3;
+    var upperThreshold = 13;
     var lowerThreshold = 0;
     return index < upperThreshold && index >= lowerThreshold;
   });
 
   return (
     <div>
-      <h2>Chale 1</h2>
+      <h2>Imagens do Chalé 1</h2>
       <Gallery
         photos={photoschale1}
         direction={"column"}

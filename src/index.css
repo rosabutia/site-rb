@@ -189,15 +189,15 @@ h2.subheadline {
 	z-index: 3;
 	margin: 2vh 0;
 	position: relative;
-	padding: 2vh 3vh;
-	font-size: 1.4em;
+	padding: 1.75vw 2vw;
+	font-size: 1.2em;
 	font-weight:600;
   letter-spacing: 0em;
   line-height: 1.2;
 	background-color: rgba(255,255,255,0.5);
 	color:#BF409F;
 	text-decoration: none;
-	border-radius: 2vh;
+	border-radius: 72px;
 }
 @media only screen and (max-width: 600px) {
   cover {
@@ -239,23 +239,24 @@ h2.subheadline {
 	align-content: stretch;
 }
 .navegation ul li {
-  margin: 0;
+  margin: 0 1vw;
 }
 .navegation ul li a {
   display: block;
-  padding: 2vw;
-	font-size: 1.2em;
+  padding: 1.75vw 2vw;
+	font-size: 1em;
 	font-weight: 600;
 	text-decoration: none;
 
 	color: #777;
   /* background: #fff; */
-	/* border-bottom: 3px solid #ddd; */
+	border: 1px solid #777;
+	border-radius: 76px;
 }
 .navegation ul li a:focus,
 .navegation ul li a:hover {
 	color: #BF409F;
-	border-bottom-color: #BF409F;
+	border-color: #BF409F;
 }
 
 
@@ -270,15 +271,15 @@ h2.subheadline {
 	  padding: 2vh 2.4vh;
 		font-size: 2.4vw;
 
-		color: #fff;
-	  border-radius: 1vw;
-	  background: #BF409F;
-		border-bottom: 0px;
+		/* color: #fff; */
+	  /* border-radius: 1vw; */
+	  /* background: #BF409F; */
+		/* border-bottom: 0px; */
 	}
 	.navegation ul li a:focus,
 	.navegation ul li a:hover {
-		color: #fff;
-		border-bottom-color: #BF409F;
+		/* color: #fff; */
+		/* border-bottom-color: #BF409F; */
 	}
 }
 
@@ -287,6 +288,16 @@ h2.subheadline {
 section.content {
   margin: 4vw;
 }
+
+section.content h2 {
+  font-size: 2vw;
+	padding: 0 0 2vh;
+	text-align: center;
+	font-weight: 200;
+	color: #777;
+}
+
+
 
 /* description */
 dl.des-chales {
@@ -404,7 +415,7 @@ dl.des-chales dd p {
 
 /* galeria de fotos */
 .react-photo-gallery--gallery img {
-	border-radius: 0.5vw;
+	border-radius: 8px;
 }
 
 

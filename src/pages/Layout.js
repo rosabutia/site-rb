@@ -42,19 +42,17 @@ const Layout = () => {
           <span>descançar</span>
         </Typist>
         </h1>
-        <h2 className="subheadline">pode chamar como quiser, o lugar você já encontrou.</h2>
-        <Link className="main-cta" to="/contact">Entrar em contato</Link>
+        <h2 className="subheadline">chame como quiser, mas o lugar você já encontrou.</h2>
+        <a className="main-cta" href="https://www.airbnb.com.br/p/rosabutia" target="_blank" >Faça sua reserva pelo Airbnb</a>
       </cover>
 
       <nav className="navegation">
         <ul>
-          <li><Link to="/">Fotos</Link></li>
+          <li><Link to="/local">Localização</Link></li>
           <li><Link to="/photoschale1">Chalé 1</Link></li>
           <li><Link to="/photoschale2">Chalé 2</Link></li>
           <li><Link to="/photoschale3">Chalé 3</Link></li>
           <li><Link to="/infra">Infraestrutura</Link></li>
-          <li><Link to="/local">Localização</Link></li>
-          <li><Link to="/contact">Contato</Link></li>
         </ul>
       </nav>
 

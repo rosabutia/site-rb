@@ -20,6 +20,13 @@ const rodape = () => {
       </article>
 
       <article className="phone">
+        <h5>Airbnb</h5>
+        <p class="number">
+          <a href="https://www.airbnb.com.br/p/rosabutia" target="_blank" >http://www.airbnb.com.br/p/rosabutia</a>
+        </p>
+      </article>
+
+      <article className="phone">
         <h5>telefone</h5>
         <p class="number">+55 48 99126-9809</p>
       </article>
