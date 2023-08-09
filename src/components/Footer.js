@@ -27,8 +27,12 @@ const rodape = () => {
       </article>
 
       <article className="phone">
-        <h5>telefone</h5>
-        <p class="number">+55 48 99126-9809</p>
+        <h5>Telefone (WhatsApp)</h5>
+        <p class="number">
+        <a href="https://api.whatsapp.com/send?phone=5548991269809&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20chal%C3%A9s%20da%20Villa%20Rosa%20Buti%C3%A1." target="_blank" >
+        +55 48 99126-9809
+        </a>
+        </p>
       </article>
 
       <address>

@@ -27,7 +27,7 @@ function FunctionPhotosChale2() {
 
   return (
     <div>
-      <h2>Imagens do Chalé 2</h2>
+      <h2>Chalé #2</h2>
       <Gallery
         photos={photoschale2}
         direction={"column"}
