@@ -40,7 +40,6 @@ const rodape = () => {
         <p>R. Quarenta e Um Mil e Trezentos e Trinta e Dois<br />Praia do Rosa - Ibiraquera<br />Imbituba - SC, 88780-000 - Brasil</p>
       </address>
 
-
     </section>
   );
 };
