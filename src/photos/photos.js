@@ -25,7 +25,7 @@ export const photos = [
     alt: "Área de piscina",
   },
   {
-    src: "https://a0.muscache.com/im/pictures/miso/Hosting-51934346/original/4d228896-c19f-4d37-bdf4-d92f65b6d765.jpeg",
+    src: "https://a0.muscache.com/im/pictures/miso/Hosting-51934346/original/5b9a9c8e-30ac-4518-a63f-2e82481bb097.jpeg",
     width: 4,
     height: 3,
     gallery: "chale1",
