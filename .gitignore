@@ -5,19 +5,32 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# production
+# build output
+/dist
 /build
 
-# misc
-.DS_Store
+# local env
+.env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
+# logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
+
+# editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Claude Code
+.claude/
+
+# Imagens: versione apenas o que o build usa.
+# As pastas de originais ("2026 ...", "by mari", etc.) ficam só na máquina
+# e alimentam `npm run photos`, que gera src/images/galeria/.
+/src/images/*
+!/src/images/galeria/
+!/src/images/cover-pool.jpeg
