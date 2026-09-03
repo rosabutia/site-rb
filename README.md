@@ -48,7 +48,13 @@ Para trocar as fotos: atualize os arquivos nas pastas `2026 *` e rode
 
 ## Deploy
 
-Configurado para [Netlify](https://www.netlify.com) via `netlify.toml`
-(build `npm run build`, publish `dist/`, com fallback de SPA). Qualquer host
-estático funciona: basta publicar o conteúdo de `dist/` e redirecionar todas as
-rotas para `index.html`.
+Build: `npm run build` → `dist/`. Todas as rotas devem cair em `index.html`
+(SPA / React Router).
+
+- **Vercel**: `vercel.json` já define framework `vite`, output `dist` e os
+  rewrites. Se o projeto foi criado antes com o preset Create React App, confira
+  em *Project Settings → Build & Development* que não há "Output Directory"
+  fixado em `build` (o `vercel.json` sobrepõe, mas é bom limpar).
+- **Netlify**: `netlify.toml` (build, publish `dist/`, Node 22, fallback de SPA).
+- **Outros hosts estáticos**: publique `dist/` e redirecione tudo para
+  `index.html`.
