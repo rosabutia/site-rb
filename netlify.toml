@@ -1,0 +1,13 @@
+# Deploy da Villa Rosa Butiá (Vite SPA)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Fallback de SPA: qualquer rota cai no index.html (React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
